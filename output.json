@@ -31,7 +31,7 @@
         ],
         "total_cost": 16,
         "operations_count": 12,
-        "execution_time_ms": 0.8528
+        "execution_time_ms": 1.0347
       },
       "kruskal": {
         "mst_edges": [
@@ -58,7 +58,7 @@
         ],
         "total_cost": 16,
         "operations_count": 37,
-        "execution_time_ms": 0.8843
+        "execution_time_ms": 1.0255
       }
     },
     {
@@ -109,7 +109,7 @@
         ],
         "total_cost": 6,
         "operations_count": 24,
-        "execution_time_ms": 0.0699
+        "execution_time_ms": 0.0686
       }
     },
     {
@@ -148,7 +148,7 @@
         ],
         "total_cost": 20,
         "operations_count": 14,
-        "execution_time_ms": 0.0374
+        "execution_time_ms": 0.031
       },
       "kruskal": {
         "mst_edges": [
@@ -180,7 +180,7 @@
         ],
         "total_cost": 20,
         "operations_count": 45,
-        "execution_time_ms": 0.0448
+        "execution_time_ms": 0.038
       }
     },
     {
@@ -239,7 +239,7 @@
         ],
         "total_cost": 41,
         "operations_count": 22,
-        "execution_time_ms": 0.0602
+        "execution_time_ms": 0.039
       },
       "kruskal": {
         "mst_edges": [
@@ -259,13 +259,13 @@
             "weight": 2
           },
           {
-            "from": "E",
-            "to": "G",
+            "from": "A",
+            "to": "B",
             "weight": 4
           },
           {
-            "from": "A",
-            "to": "B",
+            "from": "E",
+            "to": "G",
             "weight": 4
           },
           {
@@ -274,13 +274,13 @@
             "weight": 6
           },
           {
-            "from": "G",
-            "to": "J",
+            "from": "C",
+            "to": "E",
             "weight": 7
           },
           {
-            "from": "C",
-            "to": "E",
+            "from": "G",
+            "to": "J",
             "weight": 7
           },
           {
@@ -291,7 +291,7 @@
         ],
         "total_cost": 41,
         "operations_count": 79,
-        "execution_time_ms": 0.0784
+        "execution_time_ms": 0.045
       }
     },
     {
@@ -400,7 +400,7 @@
         ],
         "total_cost": 88,
         "operations_count": 44,
-        "execution_time_ms": 0.1136
+        "execution_time_ms": 0.0803
       },
       "kruskal": {
         "mst_edges": [
@@ -415,13 +415,13 @@
             "weight": 2
           },
           {
-            "from": "N4",
-            "to": "N7",
+            "from": "N10",
+            "to": "N13",
             "weight": 3
           },
           {
-            "from": "N10",
-            "to": "N13",
+            "from": "N4",
+            "to": "N7",
             "weight": 3
           },
           {
@@ -450,8 +450,8 @@
             "weight": 4
           },
           {
-            "from": "N12",
-            "to": "N15",
+            "from": "N1",
+            "to": "N3",
             "weight": 5
           },
           {
@@ -460,23 +460,23 @@
             "weight": 5
           },
           {
-            "from": "N1",
-            "to": "N3",
-            "weight": 5
-          },
-          {
             "from": "N16",
             "to": "N17",
             "weight": 5
           },
           {
-            "from": "N3",
-            "to": "N6",
-            "weight": 6
+            "from": "N12",
+            "to": "N15",
+            "weight": 5
           },
           {
             "from": "N7",
             "to": "N10",
+            "weight": 6
+          },
+          {
+            "from": "N3",
+            "to": "N6",
             "weight": 6
           },
           {
@@ -485,8 +485,8 @@
             "weight": 6
           },
           {
-            "from": "N11",
-            "to": "N14",
+            "from": "N2",
+            "to": "N4",
             "weight": 7
           },
           {
@@ -495,14 +495,14 @@
             "weight": 7
           },
           {
-            "from": "N2",
-            "to": "N4",
+            "from": "N11",
+            "to": "N14",
             "weight": 7
           }
         ],
         "total_cost": 88,
         "operations_count": 175,
-        "execution_time_ms": 0.1466
+        "execution_time_ms": 0.0807
       }
     }
   ]
