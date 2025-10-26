@@ -19,7 +19,6 @@ public class Graph {
         Edge e2 = new Edge(b, a, w);
         adj.get(a).add(e);
         adj.get(b).add(e2);
-        // store single representative (ensure no duplicates by weight+endpoints)
         edges.add(new Edge(a,b,w));
     }
 
