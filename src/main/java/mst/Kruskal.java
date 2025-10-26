@@ -16,12 +16,11 @@ public class Kruskal {
         long start = System.nanoTime();
         List<Edge> edges = new ArrayList<>(g.getEdges());
         Collections.sort(edges);
-        // count sort as operations roughly n log n comparisons
         res.operations += (long)(edges.size() * Math.log(Math.max(2, edges.size())));
         UnionFind uf = new UnionFind();
         for(String v : g.vertices()) { uf.makeSet(v); res.operations++; }
         for(Edge e : edges){
-            res.operations++; // comparison for cycle check
+            res.operations++;
             String ra = uf.find(e.from);
             String rb = uf.find(e.to);
             res.operations += 2;
